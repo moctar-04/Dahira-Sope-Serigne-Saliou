@@ -1,0 +1,51 @@
+body{
+	width: 900px;
+	margin: auto;
+	background-color: lightblue;
+}
+img{
+	height: 350px;
+	width: 900px;
+	margin-bottom: 0px;
+}
+nav ul{
+	display: flex;
+	justify-content: space-between;
+	margin-top: 0px;
+}
+ nav li{
+
+	list-style-type: none;
+}
+nav li a{
+	border: 2px double black;
+	padding: 2px 20px 2px 20px;
+	border-radius: 15px;
+}
+a:hover{
+	font-size: 1.4em;
+	background-color: blue;
+	color: black;
+}
+p{
+	font-size: 1.2em;
+}
+#sant{
+	height: 150px;
+	width: 100%;
+	border: 2px solid blue;
+	box-shadow: 10px -15px blue;
+	margin-top: 15px;
+}
+.title{
+	text-decoration: underline;
+	color: green;
+}
+.input:hover{
+	font-weight: bold;
+	font-size: 1.2em;
+	background-color: blue;
+	padding: 5px;
+}
+
+

@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Dahira Sope Serigne Saliou</title>
+	<link rel="stylesheet" type="text/css" href="adhesion.css">
+</head>
+<body>
+	<header>
+		<marquee><img src="logo.jpg" alt="logo DSSS" id="logo"></marquee>
+		<nav>
+			<ul>
+				<li><a href="accueil.html">Accueil</a></li>
+				<li><a href="présentation.html">Présentation</a></li>
+				<li><a href="adhesion.html">Adhésion </a></li>
+				<li><a href="contact.html">Contact</a></li>
+				<li><a href="editorial.html">Editorial</a></li>
+			</ul>
+		</nav>
+	</header>
+	<p class="title" style="text-align: center; font-size: 1.6em;">FORMULAIRE D'INSCRIPTION AU DAHIRA</p>
+	<form method="post" action="formulaire.html">
+		<p class="title">Civilité:</p>
+	<input type="radio" name="Civilité" value="homme">
+	<label for="homme">Mr</label>
+	<input type="radio" name="Civilité" value="femme" checked="checked">
+	<label for="femme">Mme</label>
+	<input type="radio" name="Civilité" value="fille">
+	<label for="fille">Mlle</label><br><br>
+	<label for="prenom"> donner votre Prénom:</label>
+	<input type="text" name="prenom" placeholder="Amadou Moctar"><br><br>
+	<label for="prenom"> donner votre Nom:</label>
+	<input type="text" name="nom" placeholder="Sylla">
+	<p class="title">Sexe</p>
+	<input type="radio" name="sexe" value="homme" checked="checked">
+	<label for="homme">M</label>
+	<input type="radio" name="sexe" value="femme">
+	<label for="femme">F</label>
+	<p class="title">Naissance</p>
+	<label for="naissance"> donner votre date de naissance:</label>
+	<input type="date" name="naissance"><br><br>
+	<label for="naissance"> donner votre lieu de naissance:</label>
+	<input type="text" name="naissance">
+	<p class="title">Quartier</p>
+	<select name="Quartier">
+		<option value="Médina" selected="selected">Médina Fall</option>
+		<option value="Kaossara">Kaossara</option>
+		<option value="Nginth">Nginth</option>
+		<option value="Keur">Keur Issa</option>
+		<option value="Takhikao">Takhikao</option>
+		<option value="Ballabey">Ballabey</option>
+	</select>
+	<p class="title">Kourel</p>
+	<select name="Kourel">
+		<option value="xelcom">xelcom</option>
+		<option value="Kaossara">Kaossara</option>
+		<option value="Serigne Fallou">Serigne Fallou</option>
+	</select>
+	<p class="title">Email</p>
+	<label for="mail">donner votre Email:</label>
+	<input type="email" name="email" value="@gmail.com"><br><br>
+	<input type="submit" name="envoyer" value="envoyer" class="input">
+	<input type="reset" name="annuler" value="annuler"  class="input"><br><br>
+
+
+
+
+
+	</form>
+
+
+
+
+	<footer>
+		<img src="sant.jpg" alt="santSerigneTouba" id="sant">
+	</footer>
+</body>
+</html>
